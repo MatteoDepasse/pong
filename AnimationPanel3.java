@@ -17,13 +17,13 @@ boolean blnGoRight = false;
 
 // methods
 public void paintComponent(Graphics g){
-	g.setColor(Color.WHITE);
+	g.setColor(Color.BLACK);
 	g.fillRect(0,0,1280,720);
 	g.setColor(Color.BLUE);
 	g.fillRect(intBallX, intBallY,20, 100);
 	g.setColor(Color.RED);
 	g.fillRect(intBallX2, intBallY2,20, 100);
-	g.setColor(Color.GREEN);
+	g.setColor(Color.WHITE);
 	g.fillOval(300,200,20,20);
 	
 	//intBallX = intBallX + 1;
